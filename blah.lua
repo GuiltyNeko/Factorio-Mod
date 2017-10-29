@@ -5,6 +5,6 @@ data.raw["technology"]["landfill"].unit.ingredients = {
 
 table.insert(data.raw.technology["logistics"].effects,{type = "unlock-recipe", recipe = "electric-furnace"})
 
-data.raw["technology"]["landfill"].unit.ingredients = {
+data.raw["technology"]["circuit-network"].unit.ingredients = {
 	{"science-pack-1", 1}
 }
