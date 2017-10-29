@@ -1,11 +1,11 @@
 {
   "name": "GN Factorio Tweaks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "factorio_version": "0.15",
   "title": "GuiltyNeko's Factorio Tweaks",
   "author": "GuiltyNeko",
   "contributors": "",
   "homepage": "",
-  "description": "Experimental",
+  "description": "A small collection of changes by yours truly",
   "dependencies": ["base >= 0.15.0"]
 }
