@@ -1,1 +1,2 @@
 1.0.9	-Added support for 5dim's loaders; this update removes green science packs from the yellow loader. Later I plan to remove the highest tier pack from each other loader tech, to make it more linear.
+1.0.10	-Moved the "blah.lua" file to the prototypes folder. Did this after looking at bob's assembly mod and seeing how they did it.
