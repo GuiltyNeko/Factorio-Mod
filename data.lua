@@ -1,1 +1,1 @@
-require "blah"
+require ("prototypes.blah")
