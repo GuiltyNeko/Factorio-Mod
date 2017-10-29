@@ -8,3 +8,9 @@ table.insert(data.raw.technology["logistics"].effects,{type = "unlock-recipe", r
 data.raw["technology"]["circuit-network"].unit.ingredients = {
 	{"science-pack-1", 1}
 }
+
+if mods["5dim_automatization"] then
+  data.raw["technology"]["loader"].unit.ingredients = {
+  	{"science-pack-1", 1}
+}
+end
