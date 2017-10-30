@@ -7,8 +7,5 @@
   "contributors": "",
   "homepage": "",
   "description": "Removes green packs from a couple researches and moves the electric furnace to the logistics tech",
-  "dependencies": [
-	"base >= 0.15.0",
-	
-	]
+  "dependencies": ["base >= 0.15.0"]
 }
