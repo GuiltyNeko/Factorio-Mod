@@ -6,3 +6,25 @@ for i, effect in pairs(data.raw.technology["advanced-material-processing-2"].eff
     end
 end
 
+local recipe = data.raw.recipe["electric-furnace"]
+if recipe.ingredients then
+		recipe.ingredients = {
+			{"electronic-circuit", 5},
+			{"steel-plate", 10},
+			{"stone-brick", 10} 
+		}
+	end
+	if recipe.normal then
+		recipe.normal.ingredients = {
+			{"electronic-circuit", 5},
+			{"steel-plate", 10},
+			{"stone-brick", 10} 
+		}
+	end
+	if recipe.expensive then
+		recipe.expensive.ingredients = {
+			{"electronic-circuit", 5},
+			{"steel-plate", 10},
+			{"stone-brick", 10} 
+		}
+	end
