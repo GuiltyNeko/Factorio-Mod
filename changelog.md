@@ -4,3 +4,4 @@
 1.0.12  -Removed optional 5dim's dependency and restructured mod for better operations.
 1.0.13  -Changed electric furnace recipe to require electronic circuits instead of advanced circuits.
 1.0.14  -Tentative tweaks for bob's electronics compatability with hacked splitters and burner-filter-inserter. These mods don't automatically change recipe when bob's electronics is present, and as such, are expensive to use and fairly impractical at the very start.
+1.0.15  -Added the first config options. These include the bob's circuits patch and the loaders tech edit. Next I plan to add a config option for both parts of the electric furnace change(a dropdown box in the future) and then the landfill, and finally the circuit network tech change.
