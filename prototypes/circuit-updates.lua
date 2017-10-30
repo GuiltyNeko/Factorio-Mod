@@ -1,6 +1,6 @@
 require "config"
 
-if Config.circuitupdates then
+if Config.circuitupdates or Config.everything then
 	if mods["bobelectronics"] then
 		if mods["Burner-Filter-Inserter"] then
 			local recipe = data.raw.recipes["burner-filter-inserter"]

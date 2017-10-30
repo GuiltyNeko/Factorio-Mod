@@ -1,13 +1,18 @@
-table.insert(data.raw.technology["logistics"].effects,{type = "unlock-recipe", recipe = "electric-furnace"})
+require "config"
 
-for i, effect in pairs(data.raw.technology["advanced-material-processing-2"].effects) do
-    if effect.type == "unlock-recipe" and effect.recipe == "electric-furnace" then
-        table.remove(data.raw.technology["advanced-material-processing-2"].effects,i)
-    end
+if Config.eft then
+	table.insert(data.raw.technology["logistics"].effects,{type = "unlock-recipe", recipe = "electric-furnace"})	--Move electric furnace to logistics tech
+
+	for i, effect in pairs(data.raw.technology["advanced-material-processing-2"].effects) do						--Remove electric furnace from advanced material processing 2
+    	if effect.type == "unlock-recipe" and effect.recipe == "electric-furnace" then
+        	table.remove(data.raw.technology["advanced-material-processing-2"].effects,i)
+    	end
+	end
 end
 
-local recipe = data.raw.recipe["electric-furnace"]
-if recipe.ingredients then
+if Config.efr then
+	local recipe = data.raw.recipe["electric-furnace"]																--Overwrite recipe. Completely.
+	if recipe.ingredients then
 		recipe.ingredients = {
 			{"electronic-circuit", 5},
 			{"steel-plate", 10},
@@ -28,3 +33,4 @@ if recipe.ingredients then
 			{"stone-brick", 10} 
 		}
 	end
+end
