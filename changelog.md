@@ -7,3 +7,4 @@
 1.0.15  -Added the first config options. These include the bob's circuits patch and the loaders tech edit. Next I plan to add a config option for both parts of the electric furnace change(a dropdown box in the future) and then the landfill, and finally the circuit network tech change.
 1.0.16  -Added the rest of the configuration options. Everything's pretty much finished now, as far as I can see. Not much to do from here but fix the electric furnace recipe change somehow.
 1.0.17  -Hotfix. Changed data.raw.recipes to data.raw.recipe in 2 locations.
+1.0.17  -Removed config.lua and replaced all references to code inside said file to be referencing startup settings.
