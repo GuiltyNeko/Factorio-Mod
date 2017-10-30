@@ -1,5 +1,5 @@
 if mods["bobelectronics"] then
-	if mods["Burner-Filter-Inserter"]
+	if mods["Burner-Filter-Inserter"] then
 		local recipe = data.raw.recipes["burner-filter-inserter"]
 		if recipe.ingredients then
 			recipe.ingredients = {
@@ -8,7 +8,7 @@ if mods["bobelectronics"] then
 		}
 	end
 
-	if mods["hacked-splitters"]
+	if mods["hacked-splitters"] then
 		local recipe = data.raw.recipes["hacked-splitter"]
 		if recipe.ingredients then
 			recipe.ingredients = {
