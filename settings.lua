@@ -30,23 +30,30 @@ data:extend(
 	},
 	{
 		type = "bool-setting",
-		name = "electric-furnace-tech",
+		name = "loadertech",
 		setting_type = "startup",
 		default_value = false,
-		order = "e",
+		order = "e"
 	},
 	{
 		type = "bool-setting",
-		name = "electric-furnace-recipe",
+		name = "electric-furnace-tech",
 		setting_type = "startup",
 		default_value = false,
 		order = "f",
 	},
 	{
 		type = "bool-setting",
-		name = "landfill",
+		name = "electric-furnace-recipe",
 		setting_type = "startup",
 		default_value = false,
 		order = "g",
+	},
+	{
+		type = "bool-setting",
+		name = "landfill",
+		setting_type = "startup",
+		default_value = false,
+		order = "h",
 	}
 })
