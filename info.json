@@ -1,11 +1,14 @@
 {
   "name": "GN Factorio Tweaks",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "factorio_version": "0.15",
   "title": "GuiltyNeko's Factorio Tweaks",
   "author": "GuiltyNeko",
   "contributors": "",
   "homepage": "",
   "description": "Removes green packs from a couple researches and moves the electric furnace to the logistics tech",
-  "dependencies": ["base >= 0.15.0"]
+  "dependencies": [
+			"base >= 0.15.0",
+			"hacked-splitters >= 1.0.0"
+			]
 }
