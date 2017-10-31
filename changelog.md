@@ -9,3 +9,4 @@
 1.0.17  -Hotfix. Changed data.raw.recipes to data.raw.recipe in 2 locations.
 1.0.17  -Removed config.lua and replaced all references to code inside said file to be referencing startup settings.
 1.0.19  -Added option for moving 5dim's loader to the logistics tech.
+1.0.20  -Added support for belt sorters mod. Moves the belt sorter unlock recipe to the logistics tech.
