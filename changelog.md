@@ -10,3 +10,4 @@
 1.0.17  -Removed config.lua and replaced all references to code inside said file to be referencing startup settings.
 1.0.19  -Added option for moving 5dim's loader to the logistics tech.
 1.0.20  -Added support for belt sorters mod. Moves the belt sorter unlock recipe to the logistics tech.
+1.0.22  -Moved nixie tubes to circuit network, if you have the mod installed. Non-optional. If you want it optional, ask.
