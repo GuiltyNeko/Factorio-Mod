@@ -1,4 +1,4 @@
-if settings.startup["circuit-updates"].value or settings.startup["everything"].value then
+if settings.startup["GNFT-circuit-updates"].value or settings.startup["GNFT-everything"].value then
 	if mods["bobelectronics"] then
 		if mods["Burner-Filter-Inserter"] then
 			local recipe = data.raw.recipe["burner-filter-inserter"]

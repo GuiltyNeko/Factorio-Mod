@@ -1,1 +1,1 @@
-require ("prototypes.electric-furnace")
+require ("prototypes.GNFT-electric-furnace")

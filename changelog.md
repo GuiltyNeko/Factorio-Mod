@@ -11,3 +11,4 @@
 1.0.19  -Added option for moving 5dim's loader to the logistics tech.
 1.0.20  -Added support for belt sorters mod. Moves the belt sorter unlock recipe to the logistics tech.
 1.0.22  -Moved nixie tubes to circuit network, if you have the mod installed. Non-optional. If you want it optional, ask.
+1.0.23  -Blah blah compatability. Added the prefix "GNFT" to pretty much everything. No worries about stuff breaking now. Yay...

@@ -1,4 +1,4 @@
-if settings.startup["beltsorter"].value or settings.startup["everything"] then
+if settings.startup["GNFT-beltsorter"].value or settings.startup["GNFT-everything"] then
 	if data.raw["technology"]["belt-sorter1"] then
 		table.insert(data.raw.technology["logistics"].effects,{type = "unlock-recipe", recipe = "belt-sorter1"})
 
