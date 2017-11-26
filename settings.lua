@@ -1,73 +1,16 @@
-data:extend(
-{
-	{
-		type = "bool-setting",
-		name = "GNFT-everything",
-		setting_type = "startup",
-		default_value = true,
-		order = "a",
-	},
-    {
-        type = "bool-setting",
-		name = "GNFT-circuit-updates",
-		setting_type = "startup",
-		default_value = false,
-		order = "b",
-	},
-	{
-		type = "bool-setting",
-		name = "GNFT-circuit-network",
-		setting_type = "startup",
-		default_value = false,
-		order = "c",
-	},
-	{
-		type = "bool-setting",
-		name = "GNFT-fived-loaders",
-		setting_type = "startup",
-		default_value = false,
-		order = "d",
-	},
-	{
-		type = "bool-setting",
-		name = "GNFT-loadertech",
-		setting_type = "startup",
-		default_value = false,
-		order = "e"
-	},
-	{
-		type = "bool-setting",
-		name = "GNFT-beltsorter",
-		setting_type = "startup",
-		default_value = false,
-		order = "f"
-	},
-	{
-		type = "bool-setting",
-		name = "GNFT-electric-furnace-tech",
-		setting_type = "startup",
-		default_value = false,
-		order = "g",
-	},
-	{
-		type = "bool-setting",
-		name = "GNFT-electric-furnace-recipe",
-		setting_type = "startup",
-		default_value = false,
-		order = "h",
-	},
-	{
-		type = "bool-setting",
-		name = "GNFT-landfill",
-		setting_type = "startup",
-		default_value = false,
-		order = "i",
-	},
-	{
-		type = "bool-setting",
-		name = "GNFT-fivedtinfix",
-		setting_type = "startup",
-		default_value = false,
-		order = "j",
-	}
-})
+local function make_tweak_setting(index, names)             --code contributed by Nexela via the factorio discord server. Nexela messed up and I had to fix stuff. Check your brackets next time, eh?
+       data:extend
+        {
+            {
+            name = "GNFT".."-"..names,
+            type = "bool-setting",
+            setting_type = "startup",
+            default_value = false,
+            order = index
+            }
+        }
+end
+local names = {"everything", "circuit-updates", "circuit-network", "fived-loaders", "loadertech", "beltsorter", "electric-furnace-tech", "electric-furnace-recipe", "landfill", "fivedtinfix"}
+for i, n in pairs(names) do
+    make_tweak_setting(i, n)
+end
