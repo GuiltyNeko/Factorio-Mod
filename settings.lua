@@ -62,5 +62,12 @@ data:extend(
 		setting_type = "startup",
 		default_value = false,
 		order = "i",
+	},
+	{
+		type = "bool-setting",
+		name = "GNFT-fivedtinfix",
+		setting_type = "startup",
+		default_value = false,
+		order = "j",
 	}
 })
