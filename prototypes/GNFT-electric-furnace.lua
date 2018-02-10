@@ -9,7 +9,7 @@ if settings.startup["GNFT-electric-furnace-tech"].value then
 
 	if mods["mini-machines"]then
 		if not settings.startup["mini-tech"].value then
-			table.insert(data.raw.technology["logistics"].effects,{type = "unlock-recipe", recipe = "mini-furance-1"})
+			table.insert(data.raw.technology["logistics"].effects,{type = "unlock-recipe", recipe = "mini-furnace-1"})
 		end
 
 		for i, effect in pairs(data.raw.technology["advanced-material-processing-2"].effects) do						--Remove mini electric furnace from advanced material processing 2
