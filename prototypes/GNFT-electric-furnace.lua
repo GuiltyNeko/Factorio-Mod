@@ -7,7 +7,7 @@ if settings.startup["GNFT-electric-furnace-tech"].value then
 		end
 	end
 
-	if mods.["mini-machines"]then
+	if mods["mini-machines"]then
 		if not settings.startup["mini-tech"].value then
 			table.insert(data.raw.technology["logistics"].effects,{type = "unlock-recipe", recipe = "mini-furance-1"})
 		end
