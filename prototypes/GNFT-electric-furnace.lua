@@ -12,9 +12,10 @@ if settings.startup["GNFT-electric-furnace-tech"].value then
 			table.insert(data.raw.technology["logistics"].effects,{type = "unlock-recipe", recipe = "mini-furance-1"})
 		end
 
-	for i, effect in pairs(data.raw.technology["advanced-material-processing-2"].effects) do						--Remove mini electric furnace from advanced material processing 2
-		if effect.type == "unlock-recipe" and effect.recipe == "mini-furnace-1" then
-			table.remove(data.raw.technology["advanced-material-processing-2"].effects,i)
+		for i, effect in pairs(data.raw.technology["advanced-material-processing-2"].effects) do						--Remove mini electric furnace from advanced material processing 2
+			if effect.type == "unlock-recipe" and effect.recipe == "mini-furnace-1" then
+				table.remove(data.raw.technology["advanced-material-processing-2"].effects,i)
+			end
 		end
 	end
 end
