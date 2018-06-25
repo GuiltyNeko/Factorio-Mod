@@ -14,3 +14,4 @@
 1.0.23  -Blah blah compatability. Added the prefix "GNFT" to pretty much everything. No worries about stuff breaking now. Yay...
 1.0.24	-Fixed a bit of an oopsy. Hacked splitters was a non-optional dependency. Fixed now. oopsy
 1.0.25  -Sort of fixed the 5dim's tin science pack issue. Transport belts, used in the lab recipe (for some reason) still require tin gears, and the provided method of removing recipe ingredients doesn't seem to work.
+1.0.28  -More Science Packs & Angel's refining Compatibility. Because I said so.

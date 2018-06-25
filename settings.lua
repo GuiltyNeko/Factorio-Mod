@@ -10,7 +10,7 @@ local function make_tweak_setting(index, names)             --code contributed b
             }
         }
 end
-local names = {"everything", "circuit-updates", "circuit-network", "fived-loaders", "loadertech", "beltsorter", "electric-furnace-tech", "electric-furnace-recipe", "landfill", "fivedtinfix"}
+local names = {"everything", "circuit-updates", "circuit-network", "fived-loaders", "loadertech", "beltsorter", "electric-furnace-tech", "electric-furnace-recipe", "landfill", "fivedtinfix", "moresciencepacks"}
 for i, n in pairs(names) do
     make_tweak_setting(i, n)
 end

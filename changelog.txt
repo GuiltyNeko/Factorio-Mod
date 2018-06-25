@@ -3,3 +3,9 @@ Version: 1.0.27
 Date: 2. 10. 2018
 
 Added support for mini machines mod inasmuch as the electric furnace is concerned.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.28
+Date: 6. 25. 2018
+
+Compat between Angel's Refining & More Science Packs.
